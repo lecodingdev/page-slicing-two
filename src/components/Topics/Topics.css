@@ -45,3 +45,28 @@
     right: -24px;
     bottom: 0;
 }
+
+/* 
+* Tablet Version
+*/
+
+@media (max-width: 1040px) {
+  #topics .topic-image img {
+    width: 385px;
+    height: 280px;
+  }
+}
+
+/* 
+* Smartphone Version
+*/
+
+@media (max-width: 720px) {
+  #topics .topic-image img {
+    display: none;
+  }
+
+  #topics .bg-element-2 {
+    right: 32px;
+  }
+}

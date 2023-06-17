@@ -30,7 +30,7 @@ const Footer = () => {
               This website is designed by GTCoding Ⓒ 2022
             </div>
           </div>
-          
+
           <div className="links">
             <h3>Quick Links</h3>
             <ul>
@@ -57,6 +57,9 @@ const Footer = () => {
             </ul>
           </div>
 
+          <div className="copyright mobile">
+            This website is designed by GTCoding Ⓒ 2022
+          </div>
         </div>
       </div>
     </footer>
